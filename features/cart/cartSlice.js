@@ -9,7 +9,7 @@ const cartSlice = createSlice({
       const product = action.payload;
       const exists = state.items.find(item => item.id === product.id);
       if (!exists) {
-        state.items.push(product);
+        state.items.pop(product);
       }
     },
     removeFromCart: (state, action) => {

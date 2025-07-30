@@ -48,8 +48,8 @@ ecommerce-app/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/ecommerce-app.git
-cd ecommerce-app
+git https://github.com/areybakram/Redux-EcommerceStore.git
+cd Redux-EcommerceStore
 ```
 
 ### 2. Install dependencies
@@ -70,7 +70,7 @@ Make sure you have Expo Go installed on your phone or use an emulator/simulator.
 
 ---
 
-## 🌐 API Used
+## API Used
 
 This app fetches products from the [Fake Store API](https://fakestoreapi.com/products).
 
